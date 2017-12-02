@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/videoView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/latitudeLabel"
+        android:layout_below="@+id/videoView"
+        android:text="Latiude"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/latitudeLabel"
+        android:textAlignment="center"
+        android:id="@+id/latitude"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/longitudeLabel"
+        android:layout_below="@+id/latitude"
+        android:text="Longitude"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/longitudeLabel"
+        android:id="@+id/longitude"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Titulo"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/longitude"
+        android:id="@+id/labeltitulo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/labeltitulo"
+        android:id="@+id/titulo"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
